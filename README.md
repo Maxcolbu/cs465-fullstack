@@ -2,20 +2,22 @@
 CS-465 Full Stack Development with MEAN
 
 
-Architecture
+Architecture ~ Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA). Why did the backend use a NoSQL MongoDB database?
 
-    Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
-    Why did the backend use a NoSQL MongoDB database?
+    When building this website, I used multiple frontend applications. I used Express HTML, JavaScript, and Angular for single-page applications (SPA). The Express HTML allowed me to make sure I could render my data based on the client's requests, making sure it was fast and efficient. Next, I used JavaScript to ensure the web pages were interactable, ensuring they flowed as needed and making it a very user-friendly experience. Lastly, the SPA that Angular built allowed me to make sure the application could run as a single page, which allowed me to update certain information per page. With these tools, I ensured top-notch performance and a robust user experience by ensuring fast reload times and a friendly feel to the application. The backend, powered by NoSQL, was a strategic choice for its adaptability. This feature allowed for easy changes, reassuring me about the app's potential for rapid scaling. The database's ability to store and manage data, especially with specific requirements and data formats, was crucial for building an extensive application. The compatibility of MongoDB with JSON further streamlined the frontend and backend relationship, facilitating the construction of complex data structures and ensuring fast and efficient data storage and retrieval.
 
-Functionality
 
-    How is JSON different from Javascript and how does JSON tie together the frontend and backend development pieces?
-    Provide instances in the full stack process when you refactored code to improve functionality and efficiencies, and name the benefits that come from reusable user interface (UI) components.
+Functionality ~ How is JSON different from Javascript and how does JSON tie together the frontend and backend development pieces? Provide instances in the full stack process when you refactored code to improve functionality and efficiencies, and name the benefits that come from reusable user interface (UI) components.
 
-Testing
+    JSON, unlike JavaScript, excels in straightforward data integration, making it a reliable data format for data transport. In this project, JSON served as the primary communication tool between the front and back end, ensuring the correct transmission and reception of data. This streamlined the collaboration between the two ends, enabling prompt and efficient processing of user requests. For instance, when a user submits their information, it is processed through SPA, then JSON helps structure and build the information, which makes it very easy to process the requests and ensures fast responses.
 
-    Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.
 
-Reflection
+Testing ~ Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.
 
-    How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?
+    Throughout the project, I prioritized testing my API endpoints in various ways. This rigorous testing process not only improved the functionality and efficiency of the code but also ensured the security and robustness of the application. For example, I could add buttons to add and edit components. With Angular code, I reduced the redundant code, which makes it more accessible to follow and maintain within the code. This helped me create my application faster and made it easy to update and test. I created reusable components that allow a smoother look across the application and make it more visually appealing. I also used Postman for my testing; this helped me show what errors I have and offered a more secure way to go about them.My testing also included the "GET, POST, PUT & DELETE" methods, which allowed HTTP requests to change within the database. Each endpoint, such as/API/data and more, allowed for many inputs and outputs. This is due to the get requests that help pull the Post/Pull requests for the data. Testing these layers ensured data privacy and more robust data validation, safeguarding user information.
+
+
+Reflection ~ How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?
+
+    Overall, this course challenged me as a developer. This helped me realize there is so much more to learn about coding and that you will only be perfect once you master your craft. This also opened my eyes to how much work goes into building a full-stack application and how it should always be timely. I became more confident in my coding best practices, such as adding comments for each line that explain what everything does. This helps me narrow my thoughts throughout the project without needing clarification. I have learned many skills, such as working with MongoDB PostMan, and Visual Studio. I have learned more about creating more secure and dynamic web applications with front and backend systems. This has made me learn and want to learn more about API development. All this knowledge is vital to learn and master, especially in a growing field with modern development. This experience has allowed me to learn more about frontend and backend within a complete stack project. With this knowledge, I plan to work on full-stack applications, making me more competitive in this challenging job market. Thank you for an excellent course and for making me want to learn more about full-stack development and its challenges.
+
